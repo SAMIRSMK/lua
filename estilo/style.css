@@ -29,7 +29,7 @@ body {
 header {
     background-image: linear-gradient(to bottom, #080F9E, #4750FF);
     margin: 0px 5px 0px 5px;
-    box-shadow: -1px 1px 2px black;
+    box-shadow: -1px 1px 2px 1px rgba(0, 0, 0, 0.386);
 
 }
 header > h1 {
@@ -43,7 +43,7 @@ header > h1 {
 }
 nav{
     background-image: linear-gradient(to bottom, #4750FF, #989dfd);
-    box-shadow: -1px 1px 2px black;
+    box-shadow: -1px 1px 2px 1px rgba(0, 0, 0, 0.386);
     padding: 15px;
     margin: 0px 5px 0px 5px;
 }
@@ -131,6 +131,11 @@ footer{
     text-align: center;
     padding: 10px;
 }
+footer p > a {
+    color: #989dfd;
+    text-decoration: none;
+}
+
 div.video {
     background-color: #4750FF;
     margin: 0px 7px 30px 7px;
